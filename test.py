@@ -645,4 +645,4 @@ try:
     email_conn.quit()
     print("Message was sent")
 except SMTPException: 
-    print(SMTPException)
+    print("Error occuer")
